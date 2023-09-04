@@ -1,0 +1,46 @@
+/*------------------------------------GENERAL-----------------------------------*/
+.html, body {
+    margin: 0 auto;
+}
+.container {
+    max-width: 1200px;
+}
+/*------------------------------------HEADER-----------------------------------*/
+.header {
+    background-color: chocolate;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-weight: 500;
+}
+
+.header__menu li {
+    padding: 10px;
+}
+
+.header__menu a {
+    text-decoration: none;
+    color: black;
+
+}
+/*------------------------------------MAIN-----------------------------------*/
+.main {
+    display: flex;
+}
+/*------------------------------------NAV-----------------------------------*/
+.nav {
+    background-color: cornflowerblue;
+    width: 35%;
+}
+/*------------------------------------MAIN-----------------------------------*/
+.mainBox {
+    background-color: crimson;
+    width: 65%;
+}
+/*------------------------------------FOOTER-----------------------------------*/
+.footer {
+    background-color: darkgreen;
+}
