@@ -1,25 +1,14 @@
 import '../App.css';
+import logo from '../images/header_logo-1.png'
+
 function Header() {
     return (
         <header className="header">
             <div className="header__container container">
-                <ul className="header__menu">
-                    <li>
-                        <a className="header__menuItem" href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a className="header__menuItem" href="#">Products</a>
-                    </li>
-                    <li>
-                        <a className="header__menuItem" href="#">Delivery</a>
-                    </li>
-                    <li>
-                        <a className="header__menuItem" href="#">About us</a>
-                    </li>
-                    <li>
-                        <a className="header__menuItem" href="#">Contacts</a>
-                    </li>
-                </ul>
+                <a href="">
+                    <img className="header__logo" src={logo} alt=""/>
+                </a>
+                <h1 className="header__title">ROZETKA</h1>
             </div>
         </header>
     );

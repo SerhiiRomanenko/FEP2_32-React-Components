@@ -2,45 +2,76 @@
 .html, body {
     margin: 0 auto;
 }
+
 .container {
     max-width: 1200px;
-}
-/*------------------------------------HEADER-----------------------------------*/
-.header {
-    background-color: chocolate;
+    margin: 0 auto;
 }
 
-.header__menu {
+/*------------------------------------HEADER-----------------------------------*/
+.header {
+    background-color: green;
+    padding: 20px;
+}
+
+.header__container {
     display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    width: 70px;
+    margin-right: 50px;
+}
+
+.header__title {
+    font-size: 55px;
+}
+
+
+/*------------------------------------MAIN-----------------------------------*/
+.main {
+    background-color: cornsilk;
+}
+
+.main__container {
+    display: flex;
+    padding: 20px;
+}
+
+/*------------------------------------NAV-----------------------------------*/
+.nav {
+    width: 35%;
+}
+
+.nav-links {
     list-style: none;
     margin: 0;
     font-weight: 500;
+    padding: 0;
 }
 
-.header__menu li {
-    padding: 10px;
+
+.nav-links li {
+    padding: 20px 10px 10px 0;
 }
 
-.header__menu a {
+.nav-links a {
     text-decoration: none;
-    color: black;
+}
 
+.nav-links a:hover {
+    color: white;
 }
-/*------------------------------------MAIN-----------------------------------*/
-.main {
-    display: flex;
-}
-/*------------------------------------NAV-----------------------------------*/
-.nav {
-    background-color: cornflowerblue;
-    width: 35%;
-}
+
 /*------------------------------------MAIN-----------------------------------*/
 .mainBox {
-    background-color: crimson;
     width: 65%;
 }
+
 /*------------------------------------FOOTER-----------------------------------*/
 .footer {
     background-color: darkgreen;
+    text-align: center;
+    padding: 30px;
 }
